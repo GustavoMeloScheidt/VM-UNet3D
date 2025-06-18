@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+*
+
+# permite estes arquivos e pastas
+!.gitignore
+!CACHEDIR.TAG
+!pyvenv.cfg
+!start
+!bin/
+!lib/
+!nnUNet/
+!share/
