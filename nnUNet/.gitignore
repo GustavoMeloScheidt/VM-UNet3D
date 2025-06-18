@@ -1,3 +1,17 @@
+# Permitir arquivos essenciais mesmo com regras abaixo
+!*.py
+!*.txt
+!*.png
+!*.jpg
+!*.npy
+!*.pkl
+!*.nii.gz
+!*.nii
+!*.xml
+!*.md
+!*.toml
+!setup.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -88,29 +102,5 @@ ENV/
 # Rope project settings
 .ropeproject
 
-*.memmap
-*.png
-*.zip
-*.npz
-*.npy
-*.jpg
-*.jpeg
-.idea
-*.txt
-.idea/*
-*.png
-*.nii.gz
-*.nii
-*.tif
-*.bmp
-*.pkl
-*.xml
-*.pkl
-*.pdf
-*.png
-*.jpg
-*.jpeg
-
-*.model
 
 !documentation/assets/scribble_example.png
